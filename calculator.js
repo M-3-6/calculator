@@ -26,6 +26,6 @@ app.post("/",function(req,res){
   }
   res.send("the result is: "+result);
 });
-app.listen(process.env.PORT||3000,function(){
+app.listen(process.env.PORT || 3000,function(){
   console.log("server has started");
 });
